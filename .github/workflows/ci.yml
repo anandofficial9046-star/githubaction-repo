@@ -2,9 +2,9 @@ name: Java CI Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "newlocal" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "newlocal" ]
 
 jobs:
   build:
